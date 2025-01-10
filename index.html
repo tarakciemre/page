@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NextLine Yazılım - Professional Software Solutions">
+    <title>NextLine Yazılım</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">NEXTLINE Yazılım</div>
+        <div class="nav-links">
+            <a href="#home">Ana Sayfa</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#services">Hizmetlerimiz</a>
+            <a href="#contact">İletişim</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>NextLine Yazılım</h1>
+            <p>Yenilikçi Teknoloji, Sınırsız Verimlilik</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Hakkımızda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>NextLine Yazılım olarak, modern teknolojiler kullanarak işletmenizi dijital dünyada bir adım öne taşıyoruz. Deneyimli ekibimiz ile sizlere özel çözümler üretiyoruz.</p>
+                    
+                    <div class="value-cards">
+                        <div class="value-card" data-aos="fade-right">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Verimlilik Artışı</h3>
+                            <p>Yapay zeka destekli çözümlerimizle iş süreçlerinizi %70'e varan oranda hızlandırıyoruz.</p>
+                        </div>
+                        
+                        <div class="value-card" data-aos="fade-right" data-aos-delay="100">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>İş Optimizasyonu</h3>
+                            <p>Akıllı sistemlerimiz ile operasyonel maliyetlerinizi minimize ederken verimliliğinizi maksimize ediyoruz.</p>
+                        </div>
+                        
+                        <div class="value-card" data-aos="fade-right" data-aos-delay="200">
+                            <i class="fas fa-robot"></i>
+                            <h3>Otomasyon Gücü</h3>
+                            <p>Tekrarlayan işlerinizi otomatikleştirerek çalışanlarınızın yaratıcı görevlere odaklanmasını sağlıyoruz.</p>
+                        </div>
+                        
+                        <div class="value-card" data-aos="fade-right" data-aos-delay="300">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Güvenli Dönüşüm</h3>
+                            <p>Dijital dönüşüm sürecinizi güvenli ve kesintisiz bir şekilde yönetiyoruz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Team working together">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Hizmetlerimiz</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web Geliştirme</h3>
+                    <p>Modern ve responsive web siteleri geliştiriyoruz.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobil Uygulama</h3>
+                    <p>iOS ve Android için native uygulamalar.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-brain"></i>
+                    <h3>Yapay Zeka Entegrasyonu</h3>
+                    <p>İşletmenize özel AI çözümleri ve entegrasyonları.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Akıllı Sistemler</h3>
+                    <p>IoT ve akıllı sistem çözümleri.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-camera"></i>
+                    <h3>Görüntü İşleme</h3>
+                    <p>Computer Vision ve görüntü analizi çözümleri.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-language"></i>
+                    <h3>Doğal Dil İşleme</h3>
+                    <p>NLP tabanlı metin analizi ve dil işleme çözümleri.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Yazılım Çözümleri</h3>
+                    <p>İşletmenize özel yazılım çözümleri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:support@nextline.software" class="contact-link">
+                            <p>support@nextline.software</p>
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+90 (212) XXX XX XX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NextLine Yazılım. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
